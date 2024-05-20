@@ -1,0 +1,17 @@
+.hidden {
+  display: none;
+}
+
+body {
+  background-color: #90c9bf;
+  text-align: center;
+}
+
+button {
+  width: 8rem;
+  height: 2.5rem;
+}
+
+.selections {
+  padding: 4rem 0;
+}
