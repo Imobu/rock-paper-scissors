@@ -20,7 +20,7 @@ let playing = true;
 // Generates amd Converts random number to the needed variables
 const getComputerChoice = function () {
   const randomNum = Number(Math.trunc(Math.random() * 3) + 1);
-  console.log(randomNum);
+  // console.log(randomNum);
   if (randomNum === 1) {
     return "Rock";
   } else if (randomNum === 2) {
@@ -70,8 +70,8 @@ function playRound(humanChoice, computerChoice) {
 
   // Human wins
   if (playing) {
-    console.log("Player selected", humanChoice);
-    console.log("Computer selected", computerChoice);
+    // console.log("Player selected", humanChoice);
+    // console.log("Computer selected", computerChoice);
     if (
       (humanChoice === "Rock" && computerChoice === "Scissors") ||
       (humanChoice === "Paper" && computerChoice === "Rock") ||
